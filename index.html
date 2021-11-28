@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>IP-Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="ip.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>IP LOOKUP APP <img src="ipmain.png" alt="ip" class="image"/></h1>
+  <div class="main-container">
+    <div class="loader-container">
+      <div class="loader loader-1">.</div>
+      <div class="loader loader-2">.</div>
+      <div class="loader loader-3">.</div>
+    </div>
+    <div class="details">
+      <h2 class="ip-display">IP ADDRESS : </h2>
+      <h2 class="location-display">LOCATION : </h2>
+      <h2 class="geo-display">GEO-LOCATION :</h2>
+    </div>
+    <button class="lookup-btn">Lookup Ip</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+  integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
